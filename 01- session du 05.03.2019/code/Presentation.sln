@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- Presentation", "1- Presentation", "{57CCE15D-EE56-4F00-80C6-E864672D5697}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Business", "3- Business", "{D9BC7524-6202-43C3-9079-F20424290EB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4- Persistence", "4- Persistence", "{A26F28A1-2B17-48C3-9EFE-759E4DE681D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockPersistence", "MockPersistence\MockPersistence.csproj", "{06F7E399-A029-424A-AA2E-17B164F2C9E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppConsole", "AppConsole\AppConsole.csproj", "{B23B0BEC-0F56-43A5-AB6A-C446BF005F2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metier", "Metier\Metier.csproj", "{33633122-D236-40B6-A244-7031D41BB833}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- Application", "2- Application", "{411D3C2E-5851-4262-BF26-AD6C383DA590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{CF74B676-D9C7-4DC6-BC7D-ED2C94953BBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlServerPersistence", "SqlServerPersistence\SqlServerPersistence.csproj", "{253504AD-25E6-4C8F-A505-720E196826ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06F7E399-A029-424A-AA2E-17B164F2C9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F7E399-A029-424A-AA2E-17B164F2C9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F7E399-A029-424A-AA2E-17B164F2C9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F7E399-A029-424A-AA2E-17B164F2C9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23B0BEC-0F56-43A5-AB6A-C446BF005F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23B0BEC-0F56-43A5-AB6A-C446BF005F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23B0BEC-0F56-43A5-AB6A-C446BF005F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23B0BEC-0F56-43A5-AB6A-C446BF005F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33633122-D236-40B6-A244-7031D41BB833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33633122-D236-40B6-A244-7031D41BB833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33633122-D236-40B6-A244-7031D41BB833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33633122-D236-40B6-A244-7031D41BB833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF74B676-D9C7-4DC6-BC7D-ED2C94953BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF74B676-D9C7-4DC6-BC7D-ED2C94953BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF74B676-D9C7-4DC6-BC7D-ED2C94953BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF74B676-D9C7-4DC6-BC7D-ED2C94953BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{253504AD-25E6-4C8F-A505-720E196826ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253504AD-25E6-4C8F-A505-720E196826ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253504AD-25E6-4C8F-A505-720E196826ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253504AD-25E6-4C8F-A505-720E196826ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06F7E399-A029-424A-AA2E-17B164F2C9E9} = {A26F28A1-2B17-48C3-9EFE-759E4DE681D6}
+		{B23B0BEC-0F56-43A5-AB6A-C446BF005F2E} = {57CCE15D-EE56-4F00-80C6-E864672D5697}
+		{33633122-D236-40B6-A244-7031D41BB833} = {D9BC7524-6202-43C3-9079-F20424290EB8}
+		{CF74B676-D9C7-4DC6-BC7D-ED2C94953BBD} = {411D3C2E-5851-4262-BF26-AD6C383DA590}
+		{253504AD-25E6-4C8F-A505-720E196826ED} = {A26F28A1-2B17-48C3-9EFE-759E4DE681D6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B37569A0-A28A-490B-A283-C3BE94AA04F1}
+	EndGlobalSection
+EndGlobal
