@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AcmeSystem.Applicative.ContactServices\AcmeSystem.Applicative.ContactServices.csproj" />
+    <ProjectReference Include="..\AcmeSystem.Applicative.Services\AcmeSystem.Applicative.Services.csproj" />
     <ProjectReference Include="..\AcmeSystem.Business\AcmeSystem.Business.csproj" />
     <ProjectReference Include="..\AcmeSystem.Persistence.MockRepositories\AcmeSystem.Persistence.MockRepositories.csproj" />
   </ItemGroup>

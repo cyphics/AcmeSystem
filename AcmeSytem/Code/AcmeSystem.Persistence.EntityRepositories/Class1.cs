@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AcmeSystem.Applicative.ContactServices
+namespace AcmeSystem.Persistence.EntityRepositories
 {
     public class Class1
     {
