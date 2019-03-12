@@ -8,10 +8,9 @@ namespace AcmeSystem.Presentation.ClientConsole
 {
     class Program
     {
-        
         static void Main(string[] args)
         {
-            IContactRepository contactRespository = new ContactRepository();
+            IContactRepository contactRespository = new ContactRepositoryMock();
 
             IContactServices contacts = new ContactServices(contactRespository);
            

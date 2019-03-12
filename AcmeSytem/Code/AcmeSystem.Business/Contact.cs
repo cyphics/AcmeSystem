@@ -6,5 +6,10 @@ namespace AcmeSystem.Business
     {
         public string Nom { get; set; }
         public string Prenom { get; set; }
+
+        public override string ToString()
+        {
+            return Prenom + " " + Nom;
+        }
     }
 }
