@@ -10,6 +10,7 @@
 *.log
 *.gz
 *.out
+*.EAP
 
 
 

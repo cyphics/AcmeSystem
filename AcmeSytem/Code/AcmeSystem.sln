@@ -15,13 +15,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Infrastructure", "3- Inf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcmeSystem.Presentation.ClientConsole", "AcmeSystem.Presentation.ClientConsole\AcmeSystem.Presentation.ClientConsole.csproj", "{766B96EB-1FD6-4F74-9457-952BC25BBE83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeSystem.Business", "AcmeSystem.Business\AcmeSystem.Business.csproj", "{2D6B09A6-A905-4BE1-B905-429B254F27C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcmeSystem.Business", "AcmeSystem.Business\AcmeSystem.Business.csproj", "{2D6B09A6-A905-4BE1-B905-429B254F27C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeSystem.Persistence.MockRepositories", "AcmeSystem.Persistence.MockRepositories\AcmeSystem.Persistence.MockRepositories.csproj", "{EFFB3728-64B3-4E85-BBEC-A7FCFCB2EEE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcmeSystem.Persistence.MockRepositories", "AcmeSystem.Persistence.MockRepositories\AcmeSystem.Persistence.MockRepositories.csproj", "{EFFB3728-64B3-4E85-BBEC-A7FCFCB2EEE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeSystem.Persistence.EntityRepositories", "AcmeSystem.Persistence.EntityRepositories\AcmeSystem.Persistence.EntityRepositories.csproj", "{6598E857-6766-432A-8C40-A5D483AD96DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcmeSystem.Persistence.EntityRepositories", "AcmeSystem.Persistence.EntityRepositories\AcmeSystem.Persistence.EntityRepositories.csproj", "{6598E857-6766-432A-8C40-A5D483AD96DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeSystem.Applicative.Services", "AcmeSystem.Applicative.Services\AcmeSystem.Applicative.Services.csproj", "{515F34FC-600B-4AC2-8A72-B0ED74138939}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcmeSystem.Applicative.Services", "AcmeSystem.Applicative.Services\AcmeSystem.Applicative.Services.csproj", "{515F34FC-600B-4AC2-8A72-B0ED74138939}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Essais", "Essais", "{64913833-C0E3-479E-B62F-A76C6C573EF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{3CC8ABE6-8EEF-4D76-986D-3A941264B399}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{515F34FC-600B-4AC2-8A72-B0ED74138939}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{515F34FC-600B-4AC2-8A72-B0ED74138939}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{515F34FC-600B-4AC2-8A72-B0ED74138939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC8ABE6-8EEF-4D76-986D-3A941264B399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC8ABE6-8EEF-4D76-986D-3A941264B399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC8ABE6-8EEF-4D76-986D-3A941264B399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC8ABE6-8EEF-4D76-986D-3A941264B399}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,7 @@ Global
 		{EFFB3728-64B3-4E85-BBEC-A7FCFCB2EEE5} = {B0270888-9379-46E6-BF96-F9ACC6A1C97D}
 		{6598E857-6766-432A-8C40-A5D483AD96DA} = {B0270888-9379-46E6-BF96-F9ACC6A1C97D}
 		{515F34FC-600B-4AC2-8A72-B0ED74138939} = {6C8EBCB0-7EB9-4580-8679-CFB7DFF255AF}
+		{3CC8ABE6-8EEF-4D76-986D-3A941264B399} = {64913833-C0E3-479E-B62F-A76C6C573EF8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {404DE9EC-06EC-47B3-B823-75A620794910}
