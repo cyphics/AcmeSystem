@@ -1,5 +1,6 @@
 ﻿using AcmeSystem.Applicative.Services;
 using AcmeSystem.Business;
+using AcmeSystem.Business.Contacts;
 using AcmeSystem.Persistence.MockRepositories;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,9 @@ namespace AcmeSystem.Presentation.ClientConsole
             {
                 Console.WriteLine(contact);
             }
+
+            var c = ContactFactory.CreateContact("toto", "titi", "rue", "1", "1000", "Lausanne");
+
 
             Console.ReadLine();
         }

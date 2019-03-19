@@ -1,4 +1,5 @@
 ﻿using AcmeSystem.Business;
+using AcmeSystem.Business.Contacts;
 using System;
 using System.Collections.Generic;
 

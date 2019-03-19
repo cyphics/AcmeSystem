@@ -1,0 +1,16 @@
+﻿
+@model ContactListViewModel
+
+    @{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    @foreach (var c in Model.Contacts) {
+        <div>
+            <h3>@c.ToString()</h3>
+        </div>
+    }
+
+<div page-model="@Model.PagingInfo" page-action="List"></div>
+
