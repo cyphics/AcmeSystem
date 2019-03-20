@@ -33,7 +33,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{88
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcmeSystem.Presentation.ClientWebTest", "AcmeSystem.Presentation.ClientWebTest\AcmeSystem.Presentation.ClientWebTest.csproj", "{2F5FC387-5D6C-466E-A598-9EA12D5385F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeSystem.Infrastructure", "AcmeSystem.Infrastructure\AcmeSystem.Infrastructure.csproj", "{CE08F834-4AA9-4ABB-A294-97CE0EDBCB29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcmeSystem.Infrastructure", "AcmeSystem.Infrastructure\AcmeSystem.Infrastructure.csproj", "{CE08F834-4AA9-4ABB-A294-97CE0EDBCB29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

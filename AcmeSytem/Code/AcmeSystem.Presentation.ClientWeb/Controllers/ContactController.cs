@@ -27,7 +27,7 @@ namespace AcmeSystem.Presentation.ClientWeb.Controllers
         }
         */
 
-        /**[Authorize]*/
+        [Authorize]
         public ViewResult List(int contactPage = 1)
             => View(new ContactListViewModel
             {
