@@ -13,6 +13,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using AcmeSystem.Persistence.EntityRepositories;
+using Microsoft.AspNetCore.Identity;
+using AcmeSystem.Presentation.ClientWeb.Infrastructure;
 
 namespace AcmeSystem.Presentation.ClientWeb
 {
@@ -26,20 +28,24 @@ namespace AcmeSystem.Presentation.ClientWeb
             services.AddDbContext<AcmeSystemDbContext>(options => options.UseSqlServer(
                 Configuration["Data:AcmeSystemEntityDb:ConnectionString"]));
 
+            services.AddDbContext<AppIdentityDbContext>(options => options.UseSqlServer(
+                Configuration["Data:AcmeSystemIdentity:ConnectionString"]));
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppIdentityDbContext>()
+                .AddDefaultTokenProviders();
+
+            //* Commandes à utiliser pour creer la migration d'Identity Database :
+            //* dotnet ef migrations add Initial --context AppIdentityDbContext
+            //* dotnet ef database update --context AppIdentityDbContext
+
             //services.AddTransient<IContactRepository, ContactRepositoryMock>();
             services.AddTransient<IContactRepository, EFContactRepository>();
 
             services.AddTransient<IContactServices, ContactServices>();
 
-            services.AddTransient<IUserServices, UserServices>();
-            services.AddTransient<IUserRepository, UserRepositoryMock>();
-
-            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(options =>
-                {
-                    options.ExpireTimeSpan = TimeSpan.FromDays(7);
-                });
-
+            services.AddMemoryCache();
+            services.AddSession();
             services.AddMvc();
         }
 
@@ -51,6 +57,7 @@ namespace AcmeSystem.Presentation.ClientWeb
 
             app.UseStaticFiles();
 
+            app.UseSession();
             app.UseAuthentication();
 
             app.UseMvc(routes =>
@@ -70,6 +77,7 @@ namespace AcmeSystem.Presentation.ClientWeb
             });
 
             SeedData.EnsurePopulated(app);
+            IdentitySeedData.EnsurePopulated(app);
         }
     }
 }
