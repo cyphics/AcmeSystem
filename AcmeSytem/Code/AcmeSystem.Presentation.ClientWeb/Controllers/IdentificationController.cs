@@ -6,7 +6,6 @@ using AcmeSystem.Presentation.ClientWeb.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using AcmeSystem.Business;
@@ -88,11 +87,12 @@ namespace AcmeSystem.Presentation.ClientWeb.Controllers
 
         private IEnumerable<Claim> GetClaims(User user)
         {
-            List<Claim> claims = new List<Claim>();
-
-            claims.Add(new Claim(ClaimTypes.NameIdentifier, user.Prenom));
-            claims.Add(new Claim(ClaimTypes.Name, user.Nom));
-            claims.Add(new Claim(ClaimTypes.Surname, user.UserName));
+            List<Claim> claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.NameIdentifier, user.Prenom),
+                new Claim(ClaimTypes.Name, user.Nom),
+                new Claim(ClaimTypes.Surname, user.UserName)
+            };
 
             return claims;
         }

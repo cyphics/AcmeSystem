@@ -2,6 +2,7 @@
 using AcmeSystem.Business.Contacts;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace AcmeSystem.Applicative.Services
 {
@@ -12,7 +13,7 @@ namespace AcmeSystem.Applicative.Services
         {
             _contactRepository = contactRepository;
         }
-        public List<Contact> GetAll()
+        public IQueryable<Contact> GetAll()
         {
             return _contactRepository.GetAll();
         }

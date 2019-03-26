@@ -20,8 +20,7 @@ namespace AcmeSystem.Presentation.ClientWeb
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
-            .CaptureStartupErrors(true)
-            .UseDefaultServiceProvider(options => options.ValidateScopes = false)
-            ;
+                .CaptureStartupErrors(true)
+                .UseDefaultServiceProvider(options => options.ValidateScopes = false);
     }
 }
