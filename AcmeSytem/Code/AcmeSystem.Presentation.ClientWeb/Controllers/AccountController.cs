@@ -51,7 +51,7 @@ namespace AcmeSystem.Presentation.ClientWeb.Controllers
                     if ((await signInManager.PasswordSignInAsync(user,
                     loginModel.Password, false, false)).Succeeded)
                     {
-                        return Redirect(loginModel?.ReturnUrl ?? "/Admin/Index");
+                        return Redirect(url: loginModel?.ReturnUrl ?? "/Admin/Index");
                     }
                 }
             }
