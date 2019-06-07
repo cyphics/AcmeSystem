@@ -1,0 +1,43 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Infrastructure/AcmeSystem.Infrastructure.csproj",
+    "projectName": "AcmeSystem.Infrastructure",
+    "projectPath": "/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Infrastructure/AcmeSystem.Infrastructure.csproj",
+    "outputPath": "/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Infrastructure/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

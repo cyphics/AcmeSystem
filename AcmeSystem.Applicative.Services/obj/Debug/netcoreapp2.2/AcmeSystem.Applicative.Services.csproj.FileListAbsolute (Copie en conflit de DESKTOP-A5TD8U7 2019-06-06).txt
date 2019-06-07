@@ -1,0 +1,12 @@
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Applicative.Services\bin\Debug\netcoreapp2.2\AcmeSystem.Applicative.Services.deps.json
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Applicative.Services\bin\Debug\netcoreapp2.2\AcmeSystem.Applicative.Services.dll
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Applicative.Services\bin\Debug\netcoreapp2.2\AcmeSystem.Applicative.Services.pdb
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Applicative.Services\bin\Debug\netcoreapp2.2\AcmeSystem.Business.dll
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Applicative.Services\bin\Debug\netcoreapp2.2\AcmeSystem.Business.pdb
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Applicative.Services\obj\Debug\netcoreapp2.2\AcmeSystem.Applicative.Services.csprojAssemblyReference.cache
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Applicative.Services\obj\Debug\netcoreapp2.2\AcmeSystem.Applicative.Services.csproj.CoreCompileInputs.cache
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Applicative.Services\obj\Debug\netcoreapp2.2\AcmeSystem.Applicative.Services.AssemblyInfoInputs.cache
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Applicative.Services\obj\Debug\netcoreapp2.2\AcmeSystem.Applicative.Services.AssemblyInfo.cs
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Applicative.Services\obj\Debug\netcoreapp2.2\AcmeSystem.Applicative.Services.csproj.CopyComplete
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Applicative.Services\obj\Debug\netcoreapp2.2\AcmeSystem.Applicative.Services.dll
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Applicative.Services\obj\Debug\netcoreapp2.2\AcmeSystem.Applicative.Services.pdb

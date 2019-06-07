@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "AcmeSystem.Presentation.ClientConsole/1.0.0": {
+        "dependencies": {
+          "AcmeSystem.Applicative.Services": "1.0.0",
+          "AcmeSystem.Business": "1.0.0",
+          "AcmeSystem.Persistence.MockRepositories": "1.0.0"
+        },
+        "runtime": {
+          "AcmeSystem.Presentation.ClientConsole.dll": {}
+        }
+      },
+      "AcmeSystem.Applicative.Services/1.0.0": {
+        "dependencies": {
+          "AcmeSystem.Business": "1.0.0"
+        },
+        "runtime": {
+          "AcmeSystem.Applicative.Services.dll": {}
+        }
+      },
+      "AcmeSystem.Business/1.0.0": {
+        "runtime": {
+          "AcmeSystem.Business.dll": {}
+        }
+      },
+      "AcmeSystem.Persistence.MockRepositories/1.0.0": {
+        "dependencies": {
+          "AcmeSystem.Business": "1.0.0"
+        },
+        "runtime": {
+          "AcmeSystem.Persistence.MockRepositories.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AcmeSystem.Presentation.ClientConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AcmeSystem.Applicative.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AcmeSystem.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AcmeSystem.Persistence.MockRepositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

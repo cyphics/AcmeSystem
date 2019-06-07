@@ -1,0 +1,116 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\cyphi\\Dropbox\\programmation\\IDEC\\Architecture\\module_477\\AcmeSytem\\Code\\AcmeSystem.Persistence.MockRepositories\\AcmeSystem.Persistence.MockRepositories.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\cyphi\\Dropbox\\programmation\\IDEC\\Architecture\\module_477\\AcmeSytem\\Code\\AcmeSystem.Business\\AcmeSystem.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cyphi\\Dropbox\\programmation\\IDEC\\Architecture\\module_477\\AcmeSytem\\Code\\AcmeSystem.Business\\AcmeSystem.Business.csproj",
+        "projectName": "AcmeSystem.Business",
+        "projectPath": "C:\\Users\\cyphi\\Dropbox\\programmation\\IDEC\\Architecture\\module_477\\AcmeSytem\\Code\\AcmeSystem.Business\\AcmeSystem.Business.csproj",
+        "packagesPath": "C:\\Users\\cyphi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cyphi\\Dropbox\\programmation\\IDEC\\Architecture\\module_477\\AcmeSytem\\Code\\AcmeSystem.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cyphi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\cyphi\\Dropbox\\programmation\\IDEC\\Architecture\\module_477\\AcmeSytem\\Code\\AcmeSystem.Persistence.MockRepositories\\AcmeSystem.Persistence.MockRepositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cyphi\\Dropbox\\programmation\\IDEC\\Architecture\\module_477\\AcmeSytem\\Code\\AcmeSystem.Persistence.MockRepositories\\AcmeSystem.Persistence.MockRepositories.csproj",
+        "projectName": "AcmeSystem.Persistence.MockRepositories",
+        "projectPath": "C:\\Users\\cyphi\\Dropbox\\programmation\\IDEC\\Architecture\\module_477\\AcmeSytem\\Code\\AcmeSystem.Persistence.MockRepositories\\AcmeSystem.Persistence.MockRepositories.csproj",
+        "packagesPath": "C:\\Users\\cyphi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cyphi\\Dropbox\\programmation\\IDEC\\Architecture\\module_477\\AcmeSytem\\Code\\AcmeSystem.Persistence.MockRepositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cyphi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\cyphi\\Dropbox\\programmation\\IDEC\\Architecture\\module_477\\AcmeSytem\\Code\\AcmeSystem.Business\\AcmeSystem.Business.csproj": {
+                "projectPath": "C:\\Users\\cyphi\\Dropbox\\programmation\\IDEC\\Architecture\\module_477\\AcmeSytem\\Code\\AcmeSystem.Business\\AcmeSystem.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

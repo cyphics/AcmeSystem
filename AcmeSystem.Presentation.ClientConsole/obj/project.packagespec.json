@@ -1,0 +1,53 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/AcmeSystem.Presentation.ClientConsole.csproj",
+    "projectName": "AcmeSystem.Presentation.ClientConsole",
+    "projectPath": "/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/AcmeSystem.Presentation.ClientConsole.csproj",
+    "outputPath": "/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Applicative.Services/AcmeSystem.Applicative.Services.csproj": {
+            "projectPath": "/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Applicative.Services/AcmeSystem.Applicative.Services.csproj"
+          },
+          "/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Business/AcmeSystem.Business.csproj": {
+            "projectPath": "/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Business/AcmeSystem.Business.csproj"
+          },
+          "/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Persistence.MockRepositories/AcmeSystem.Persistence.MockRepositories.csproj": {
+            "projectPath": "/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Persistence.MockRepositories/AcmeSystem.Persistence.MockRepositories.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7c122e4-6e4b-4207-aa19-241c566e8e02" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebApplication1/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AcmeSystem.Presentation.ClientWebTest/ContactControllerTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="915">
+              <caret line="61" selection-end-line="61" />
+              <folding>
+                <marker date="1559054121205" expanded="true" signature="6:344" ph="..." />
+                <marker date="1559054121205" expanded="true" signature="393:1987" ph="{...}" />
+                <marker date="1559054121205" expanded="true" signature="435:1985" ph="{...}" />
+                <marker date="1559054121205" expanded="true" signature="491:1180" ph="{...}" />
+                <marker date="1559054121205" expanded="true" signature="1249:1979" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AcmeSystem.Presentation.ClientWebTest/PageLinkTagHelperTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+              <folding>
+                <marker date="1559054121205" expanded="true" signature="6:347" ph="..." />
+                <marker date="1559054121205" expanded="true" signature="396:2049" ph="{...}" />
+                <marker date="1559054121205" expanded="true" signature="438:2047" ph="{...}" />
+                <marker date="1559054121205" expanded="true" signature="505:2041" ph="{...}" />
+                <marker date="1559054121205" expanded="true" signature="1103:1346" ph="{...}" />
+                <marker date="1559054121205" expanded="true" signature="1164:1295" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebApplication1/WebApplication1.csproj">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AcmeSystem.Persistence.EntityRepositories/AcmeSystemDbContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+              <folding>
+                <marker date="1559054127592" expanded="true" signature="6:86" ph="..." />
+                <marker date="1559054127592" expanded="true" signature="139:831" ph="{...}" />
+                <marker date="1559054127592" expanded="true" signature="190:829" ph="{...}" />
+                <marker date="1559054127592" expanded="true" signature="305:325" ph="{...}" />
+                <marker date="1559054127592" expanded="true" signature="520:821" ph="{...}" />
+                <marker date="1559054127592" expanded="true" signature="576:811" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AcmeSystem.Business/IContactServices.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <folding>
+                <marker date="1559054127592" expanded="true" signature="6:121" ph="..." />
+                <marker date="1559054127592" expanded="true" signature="152:244" ph="{...}" />
+                <marker date="1559054127592" expanded="true" signature="192:242" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AcmeSystem.Applicative.Services/ContactServices.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <marker date="1559054127588" expanded="true" signature="6:129" ph="..." />
+                <marker date="1559054127588" expanded="true" signature="172:540" ph="{...}" />
+                <marker date="1559054127588" expanded="true" signature="226:538" ph="{...}" />
+                <marker date="1559054127588" expanded="true" signature="348:420" ph="{...}" />
+                <marker date="1559054127588" expanded="true" signature="464:532" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AcmeSystem.Persistence.EntityRepositories/EFContactRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding>
+                <marker date="1559054127592" expanded="false" signature="6:148" ph="..." />
+                <marker date="1559054127592" expanded="true" signature="201:1100" ph="{...}" />
+                <marker date="1559054127592" expanded="true" signature="261:1098" ph="{...}" />
+                <marker date="1559054127592" expanded="true" signature="370:422" ph="{...}" />
+                <marker date="1559054127592" expanded="true" signature="467:536" ph="{...}" />
+                <marker date="1559054127592" expanded="true" signature="581:650" ph="{...}" />
+                <marker date="1559054127592" expanded="true" signature="695:753" ph="{...}" />
+                <marker date="1559054127592" expanded="true" signature="793:862" ph="{...}" />
+                <marker date="1559054127592" expanded="true" signature="909:978" ph="{...}" />
+                <marker date="1559054127592" expanded="true" signature="1023:1092" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AcmeSystem.Persistence.EntityRepositories/SeedData.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <marker date="1559054127592" expanded="false" signature="6:242" ph="..." />
+                <marker date="1559054127592" expanded="true" signature="295:2011" ph="{...}" />
+                <marker date="1559054127592" expanded="true" signature="330:2009" ph="{...}" />
+                <marker date="1559054127592" expanded="true" signature="404:2003" ph="{...}" />
+                <marker date="1559054127592" expanded="true" signature="617:1993" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AcmeSystem.Business/IContactRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding>
+                <marker date="1559054127588" expanded="false" signature="6:154" ph="..." />
+                <marker date="1559054127588" expanded="true" signature="185:466" ph="{...}" />
+                <marker date="1559054127588" expanded="true" signature="227:464" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/AcmeSystem.Applicative.Services/ContactServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcmeSystem.Presentation.ClientWeb/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcmeSystem.Persistence.EntityRepositories/EFContactRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcmeSystem.Presentation.ClientWeb/Views/Contact/List.cshtml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcmeSystem.Persistence.EntityRepositories/SeedData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcmeSystem.Persistence.EntityRepositories/AcmeSystemDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcmeSystem.Business/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcmeSystem.Persistence.MockRepositories/UserRepositoryMock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcmeSystem.Business/IContactRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcmeSystem.Persistence.MockRepositories/ContactRepositoryMock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication1/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcmeSystem.Business/IContactServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcmeSystem.Business/IUserServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcmeSystem.Presentation.ClientWebTest/ContactControllerTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcmeSystem.Presentation.ClientConsole/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AcmeSystem.Presentation.ClientWebTest/PageLinkTagHelperTests.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Service/Class1.cs" />
+        <option value="$PROJECT_DIR$/AcmeSystem.Business/IContactService.cs" />
+        <option value="$PROJECT_DIR$/Service2/Class1.cs" />
+        <option value="$PROJECT_DIR$/Service/ContactService.cs" />
+        <option value="$PROJECT_DIR$/Service2/ContactService.cs" />
+        <option value="$PROJECT_DIR$/AcmeSystem.Business/IContactRepository.cs" />
+        <option value="$PROJECT_DIR$/Pres/Program.cs" />
+        <option value="$PROJECT_DIR$/AcmeSystem.Persistence.MockRepositories/ContactRepository.cs" />
+        <option value="$PROJECT_DIR$/AcmeSystem.Presentation.ClientConsole/Program.cs" />
+        <option value="$PROJECT_DIR$/AcmeSystem.Business/Contact.cs" />
+        <option value="$PROJECT_DIR$/Tests/Program.cs" />
+        <option value="$PROJECT_DIR$/AcmeSystem.Persistence.MockRepositories/ContactRepositoryMock.cs" />
+        <option value="$PROJECT_DIR$/AcmeSystem.Presentation.ClientWeb/Views/Contact/List.cshtml" />
+        <option value="$PROJECT_DIR$/AcmeSystem.Presentation.ClientWeb/Views/Identification/Login.cshtml" />
+        <option value="$PROJECT_DIR$/AcmeSystem.Presentation.ClientWebTest/ContactControllerTests.cs" />
+        <option value="$PROJECT_DIR$/AcmeSystem.Presentation.ClientWebTest/PageLinkTagHelperTests.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1926" />
+    <option name="y" value="16" />
+    <option name="width" value="949" />
+    <option name="height" value="1031" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="AcmeSystem" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="AcmeSystem" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="5- Persistence" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="AcmeSystem" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="5- Persistence" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="AcmeSystem.Persistence.EntityRepositories" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.1- Presentation\AcmeSystem.Presentation.ClientWeb">
+    <configuration name="1- Presentation\AcmeSystem.Presentation.ClientWeb" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/WebApplication1/bin/Debug/netcoreapp2.2/WebApplication1.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WebApplication1" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/WebApplication1/WebApplication1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.2" />
+      <browser url="http://localhost:5000" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/AcmeSystem.Presentation.ClientConsole/bin/Debug/netcoreapp2.1/AcmeSystem.Presentation.ClientConsole.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AcmeSystem.Presentation.ClientConsole" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/AcmeSystem.Presentation.ClientConsole/AcmeSystem.Presentation.ClientConsole.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser url="http://localhost:5000" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+      <item itemvalue=".NET Project.1- Presentation\AcmeSystem.Presentation.ClientWeb" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.1- Presentation\AcmeSystem.Presentation.ClientWeb" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7c122e4-6e4b-4207-aa19-241c566e8e02" name="Default Changelist" comment="" />
+      <created>1552417388235</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552417388235</updated>
+      <workItem from="1552417391311" duration="2347000" />
+      <workItem from="1552420041064" duration="2273000" />
+      <workItem from="1552571673143" duration="5636000" />
+      <workItem from="1553021796199" duration="2527000" />
+      <workItem from="1553689233183" duration="67000" />
+      <workItem from="1553689320015" duration="218000" />
+      <workItem from="1553689560647" duration="155000" />
+      <workItem from="1553689736734" duration="830000" />
+      <workItem from="1553690601769" duration="252000" />
+      <workItem from="1559053798979" duration="1737000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16042000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1915" y="5" width="1930" height="1053" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.030319149" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49626467" weight="0.33656958" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.66542554" weight="0.3481953" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4968085" visible="true" weight="0.29511678" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5031915" side_tool="true" visible="true" weight="0.29511678" />
+      <window_info anchor="bottom" id="Build" order="14" sideWeight="0.49626467" weight="0.18122977" />
+      <window_info anchor="bottom" id="REST Client" order="15" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4967983" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49893278" weight="0.32937366" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5032017" side_tool="true" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Build" order="14" sideWeight="0.4967983" weight="0.32937366" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Service/ContactService.cs" />
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Business/IContactService.cs" />
+    <entry file="file://$PROJECT_DIR$/Service2/ContactService.cs" />
+    <entry file="file://$PROJECT_DIR$/Pres/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/Tests/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Business/Contact.cs" />
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Business/IUserServices.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <marker date="1553021092823" expanded="false" signature="6:99" ph="..." />
+            <marker date="1553021092823" expanded="true" signature="130:238" ph="{...}" />
+            <marker date="1553021092823" expanded="true" signature="167:236" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Business/IUserRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <marker date="1553021092823" expanded="false" signature="6:99" ph="..." />
+            <marker date="1553021092823" expanded="true" signature="130:258" ph="{...}" />
+            <marker date="1553021092823" expanded="true" signature="169:256" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApplication2/Startup.cs" />
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Presentation.ClientConsole/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <marker date="1553021092000" expanded="false" signature="6:196" ph="..." />
+            <marker date="1553021092000" expanded="true" signature="245:884" ph="{...}" />
+            <marker date="1553021092000" expanded="true" signature="265:882" ph="{...}" />
+            <marker date="1553021092000" expanded="true" signature="311:876" ph="{...}" />
+            <marker date="1553021092000" expanded="true" signature="661:733" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Presentation.ClientWeb/Views/Contact/List.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Presentation.ClientWeb/Views/Identification/Login.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Presentation.ClientWeb/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApplication1/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Presentation.ClientWebTest/ContactControllerTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" selection-end-line="61" />
+          <folding>
+            <marker date="1559054121205" expanded="true" signature="6:344" ph="..." />
+            <marker date="1559054121205" expanded="true" signature="393:1987" ph="{...}" />
+            <marker date="1559054121205" expanded="true" signature="435:1985" ph="{...}" />
+            <marker date="1559054121205" expanded="true" signature="491:1180" ph="{...}" />
+            <marker date="1559054121205" expanded="true" signature="1249:1979" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Presentation.ClientWebTest/PageLinkTagHelperTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <marker date="1559054121205" expanded="true" signature="6:347" ph="..." />
+            <marker date="1559054121205" expanded="true" signature="396:2049" ph="{...}" />
+            <marker date="1559054121205" expanded="true" signature="438:2047" ph="{...}" />
+            <marker date="1559054121205" expanded="true" signature="505:2041" ph="{...}" />
+            <marker date="1559054121205" expanded="true" signature="1103:1346" ph="{...}" />
+            <marker date="1559054121205" expanded="true" signature="1164:1295" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Persistence.EntityRepositories/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApplication1/WebApplication1.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Persistence.MockRepositories/ContactRepositoryMock.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <marker date="1559054127592" expanded="true" signature="6:129" ph="..." />
+            <marker date="1559054127592" expanded="true" signature="180:1024" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="242:1022" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="399:468" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="513:582" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="627:677" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="717:786" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="833:902" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="947:1016" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Persistence.MockRepositories/UserRepositoryMock.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <marker date="1553021092000" expanded="false" signature="6:162" ph="..." />
+            <marker date="1553021092000" expanded="true" signature="213:917" ph="{...}" />
+            <marker date="1553021092000" expanded="true" signature="269:915" ph="{...}" />
+            <marker date="1553021092000" expanded="true" signature="340:635" ph="{...}" />
+            <marker date="1553021092000" expanded="true" signature="389:624" ph="{...}" />
+            <marker date="1553021092000" expanded="true" signature="688:804" ph="{...}" />
+            <marker date="1553021092000" expanded="true" signature="840:909" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Business/IContactServices.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <marker date="1559054127592" expanded="true" signature="6:121" ph="..." />
+            <marker date="1559054127592" expanded="true" signature="152:244" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="192:242" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Applicative.Services/ContactServices.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <marker date="1559054127588" expanded="true" signature="6:129" ph="..." />
+            <marker date="1559054127588" expanded="true" signature="172:540" ph="{...}" />
+            <marker date="1559054127588" expanded="true" signature="226:538" ph="{...}" />
+            <marker date="1559054127588" expanded="true" signature="348:420" ph="{...}" />
+            <marker date="1559054127588" expanded="true" signature="464:532" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Business/IContactRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <marker date="1559054127588" expanded="false" signature="6:154" ph="..." />
+            <marker date="1559054127588" expanded="true" signature="185:466" ph="{...}" />
+            <marker date="1559054127588" expanded="true" signature="227:464" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Persistence.EntityRepositories/EFContactRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <marker date="1559054127592" expanded="false" signature="6:148" ph="..." />
+            <marker date="1559054127592" expanded="true" signature="201:1100" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="261:1098" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="370:422" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="467:536" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="581:650" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="695:753" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="793:862" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="909:978" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="1023:1092" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Persistence.EntityRepositories/SeedData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <marker date="1559054127592" expanded="false" signature="6:242" ph="..." />
+            <marker date="1559054127592" expanded="true" signature="295:2011" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="330:2009" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="404:2003" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="617:1993" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AcmeSystem.Persistence.EntityRepositories/AcmeSystemDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <marker date="1559054127592" expanded="true" signature="6:86" ph="..." />
+            <marker date="1559054127592" expanded="true" signature="139:831" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="190:829" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="305:325" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="520:821" ph="{...}" />
+            <marker date="1559054127592" expanded="true" signature="576:811" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

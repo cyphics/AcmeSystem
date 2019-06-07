@@ -1,0 +1,9 @@
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Business\bin\Debug\netcoreapp2.2\AcmeSystem.Business.deps.json
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Business\bin\Debug\netcoreapp2.2\AcmeSystem.Business.dll
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Business\bin\Debug\netcoreapp2.2\AcmeSystem.Business.pdb
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Business\obj\Debug\netcoreapp2.2\AcmeSystem.Business.csprojAssemblyReference.cache
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Business\obj\Debug\netcoreapp2.2\AcmeSystem.Business.csproj.CoreCompileInputs.cache
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Business\obj\Debug\netcoreapp2.2\AcmeSystem.Business.AssemblyInfoInputs.cache
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Business\obj\Debug\netcoreapp2.2\AcmeSystem.Business.AssemblyInfo.cs
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Business\obj\Debug\netcoreapp2.2\AcmeSystem.Business.dll
+C:\Users\cyphi\Dropbox\programmation\IDEC\Architecture\module_477\AcmeSytem\Code\AcmeSystem.Business\obj\Debug\netcoreapp2.2\AcmeSystem.Business.pdb
