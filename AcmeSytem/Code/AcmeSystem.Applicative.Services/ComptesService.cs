@@ -14,9 +14,51 @@ namespace AcmeSystem.Applicative.Services
         {
             _repo = repo;
         }
+
+        public void Create(Compte compte)
+        {
+            _repo.Create(compte);
+        }
+
+        public void Delete(Compte compte)
+        {
+            _repo.Delete(compte);
+        }
+
+        public Compte FindById(int? id)
+        {
+            var list = GetAll();
+            foreach(Compte compte in list)
+            {
+                if (compte.Id == id)
+                {
+                    return compte;
+                }
+            }
+            return null;
+        }
+
+        public Compte FindByName(string name)
+        {
+            var list = GetAll();
+            foreach (Compte compte in list)
+            {
+                if (compte.Nom == name)
+                {
+                    return compte;
+                }
+            }
+            return null;
+        }
+
         public IQueryable<Compte> GetAll()
         {
             return _repo.GetAll();
+        }
+
+        public void Edit(Compte compte)
+        {
+            _repo.Update(compte);
         }
     }
 }

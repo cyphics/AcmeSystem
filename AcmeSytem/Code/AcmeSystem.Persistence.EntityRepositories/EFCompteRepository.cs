@@ -18,7 +18,8 @@ namespace AcmeSystem.Persistence.EntityRepositories
 
         public void Create(Compte compte)
         {
-            throw new NotImplementedException();
+            _context.Add(compte);
+            _context.SaveChangesAsync();
         }
 
         public void Delete(Compte compte)

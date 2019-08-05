@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using AcmeSystem.Business;
 using AcmeSystem.Presentation.ClientWeb.ViewModels;
 using Microsoft.AspNetCore.Authorization;
+using System.Threading.Tasks;
+using AcmeSystem.Business.Comptes;
 
 namespace AcmeSystem.Presentation.ClientWeb.Controllers
 {
@@ -38,143 +40,120 @@ namespace AcmeSystem.Presentation.ClientWeb.Controllers
                     TotalItems = _compteServices.GetAll().Count()
                 }
             });
-        //    private readonly AcmeSystemDbContext _context;
-
-        //    public CompteController(AcmeSystemDbContext context)
-        //    {
-        //        _context = context;
-        //    }
-
-        //    GET: Comptes
-        //    public async Task<IActionResult> Index()
-        //    {
-        //        return View(await _context.Comptes.ToListAsync());
-        //    }
-
-        //    GET: Comptes/Details/5
-        //    public async Task<IActionResult> Details(int? id)
-        //    {
-        //        if (id == null)
-        //        {
-        //            return NotFound();
-        //        }
-
-        //        var compte = await _context.Comptes
-        //            .FirstOrDefaultAsync(m => m.Id == id);
-        //        if (compte == null)
-        //        {
-        //            return NotFound();
-        //        }
-
-        //        return View(compte);
-        //    }
+   
 
         //    GET: Comptes/Create
-        //    public IActionResult Create()
-        //    {
-        //        return View();
-        //    }
+        public IActionResult Create()
+        {
+            return View();
+        }
 
         //    POST: Comptes/Create
         //    To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         //     more details see http://go.microsoft.com/fwlink/?LinkId=317598.
-        //    [HttpPost]
-        //    [ValidateAntiForgeryToken]
-        //    public async Task<IActionResult> Create([Bind("Id,Nom,DateCreation,DateModification")] Compte compte)
-        //    {
-        //        if (ModelState.IsValid)
-        //        {
-        //            _context.Add(compte);
-        //            await _context.SaveChangesAsync();
-        //            return RedirectToAction(nameof(Index));
-        //        }
-        //        return View(compte);
-        //    }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("Id,Nom,DateCreation,DateModification")] Compte compte)
+        {
+            if (ModelState.IsValid)
+            {
+                _compteServices.Create(compte);
+                //await _context.SaveChangesAsync();
+                //return RedirectToAction(nameof(Index));
+            }
+            return View(compte);
+        }
 
         //    GET: Comptes/Edit/5
-        //    public async Task<IActionResult> Edit(int? id)
-        //    {
-        //        if (id == null)
-        //        {
-        //            return NotFound();
-        //        }
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
 
-        //        var compte = await _context.Comptes.FindAsync(id);
-        //        if (compte == null)
-        //        {
-        //            return NotFound();
-        //        }
-        //        return View(compte);
-        //    }
+            var compte = _compteServices.FindById(id);
+            if (compte == null)
+            {
+                return NotFound();
+            }
+            return View(compte);
 
+        }
         //    POST: Comptes/Edit/5
         //     To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         //     more details see http://go.microsoft.com/fwlink/?LinkId=317598.
-        //    [HttpPost]
-        //    [ValidateAntiForgeryToken]
-        //    public async Task<IActionResult> Edit(int id, [Bind("Id,Nom,DateCreation,DateModification")] Compte compte)
-        //    {
-        //        if (id != compte.Id)
-        //        {
-        //            return NotFound();
-        //        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nom,DateCreation,DateModification")] Compte compte)
+        {
+            if (id != compte.Id)
+            {
+                return NotFound();
+            }
 
-        //        if (ModelState.IsValid)
-        //        {
-        //            try
-        //            {
-        //                _context.Update(compte);
-        //                await _context.SaveChangesAsync();
-        //            }
-        //            catch (DbUpdateConcurrencyException)
-        //            {
-        //                if (!CompteExists(compte.Id))
-        //                {
-        //                    return NotFound();
-        //                }
-        //                else
-        //                {
-        //                    throw;
-        //                }
-        //            }
-        //            return RedirectToAction(nameof(Index));
-        //        }
-        //        return View(compte);
-        //    }
+            _compteServices.Edit(compte);
+            //if (ModelState.IsValid)
+            //{
+            //    try
+            //    {
+            //        _context.Update(compte);
+            //        await _context.SaveChangesAsync();
+            //    }
+            //    catch (DbUpdateConcurrencyException)
+            //    {
+            //        if (!CompteExists(compte.Id))
+            //        {
+            //            return NotFound();
+            //        }
+            //        else
+            //        {
+            //            throw;
+            //        }
+            //    }
+            //    return RedirectToAction(nameof(Index));
+            //}
+            return View(compte);
+        }
 
         //    GET: Comptes/Delete/5
-        //    public async Task<IActionResult> Delete(int? id)
-        //    {
-        //        if (id == null)
-        //        {
-        //            return NotFound();
-        //        }
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
 
-        //        var compte = await _context.Comptes
-        //            .FirstOrDefaultAsync(m => m.Id == id);
-        //        if (compte == null)
-        //        {
-        //            return NotFound();
-        //        }
+                var compte = _compteServices.FindById(id);
+                if (compte == null)
+                {
+                    return NotFound();
+                }
 
-        //        return View(compte);
-        //    }
+                return View(compte);
+            
+
+           
+        }
 
         //    POST: Comptes/Delete/5
-        //    [HttpPost, ActionName("Delete")]
-        //    [ValidateAntiForgeryToken]
-        //    public async Task<IActionResult> DeleteConfirmed(int id)
-        //    {
-        //        var compte = await _context.Comptes.FindAsync(id);
-        //        _context.Comptes.Remove(compte);
-        //        await _context.SaveChangesAsync();
-        //        return RedirectToAction(nameof(Index));
-        //    }
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var compte = _compteServices.FindById(id);
+            _compteServices.Delete(compte);
+            return RedirectToAction(nameof(Compte));
+            //var compte = await _context.Comptes.FindAsync(id);
+            //_context.Comptes.Remove(compte);
+            //await _context.SaveChangesAsync();
+            //return RedirectToAction(nameof(Index));
+        }
 
-        //    private bool CompteExists(int id)
-        //    {
-        //        return _context.Comptes.Any(e => e.Id == id);
-        //    }
+        //private bool CompteExists(int id)
+        //{
+        //    return _context.Comptes.Any(e => e.Id == id);
         //}
     }
 }
+

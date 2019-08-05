@@ -11,8 +11,24 @@
         <div class="card card-outline-primary m-1 p-1">
             <div class="bg-faded p-1">
                 <h4>@c.ToString()</h4>
+                            </div>
+            <div class="card-text p-1">
+                @c.Nom
+                <div>
+                    <a class="btn"
+                       asp-action="Edit"
+                       asp-controller="Compte"
+                       asp-route-category="">
+                        Update
+                    </a>
+                    <a class="btn"
+                       asp-action="Delete"
+                       asp-controller="Compte"
+                       asp-route-category="">
+                        Delete
+                    </a>
+                </div>
             </div>
-            <div class="card-text p-1">@c.Nom</div>
         </div>
     }
         <div page-model="@Model.PagingInfo" page-action="List" page-classes-enabled="true"
@@ -20,3 +36,11 @@
              page-class-selected="btn-primary" class="btn-group pull-right m-1">
         </div>
 
+<div>
+    <a class="btn"
+       asp-action="Create"
+       asp-controller="Compte"
+       asp-route-category="">
+        Create new account
+    </a>
+</div>
