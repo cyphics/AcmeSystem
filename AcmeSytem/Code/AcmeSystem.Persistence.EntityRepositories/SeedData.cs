@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using AcmeSystem.Business.Contacts;
+using AcmeSystem.Business.Comptes;
 
 namespace AcmeSystem.Persistence.EntityRepositories
 {
@@ -34,6 +35,20 @@ namespace AcmeSystem.Persistence.EntityRepositories
 
                 context.SaveChanges();
             }
+
+            if (!context.Comptes.Any())
+            {
+                context.Comptes.AddRange(
+                    CompteFactory.CreateCompte("Google", "Gravity street", "25", "1042", "London"),
+                    CompteFactory.CreateCompte("Facebook", "Gravity street", "25", "1042", "London"),
+                    CompteFactory.CreateCompte("Amazon", "Gravity street", "25", "1042", "London"),
+                    CompteFactory.CreateCompte("Microsoft", "Gravity street", "25", "1042", "London")
+                                        );
+
+                context.SaveChanges();
+            }
         }
+
+
     }
 }

@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace AcmeSystem.Persistence.EntityRepositories.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class Init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -21,6 +22,28 @@ namespace AcmeSystem.Persistence.EntityRepositories.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Adresses", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Comptes",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Nom = table.Column<string>(nullable: true),
+                    AdresseId = table.Column<int>(nullable: true),
+                    DateCreation = table.Column<DateTime>(nullable: false),
+                    DateModification = table.Column<DateTime>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Comptes", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Comptes_Adresses_AdresseId",
+                        column: x => x.AdresseId,
+                        principalTable: "Adresses",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -45,6 +68,11 @@ namespace AcmeSystem.Persistence.EntityRepositories.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_Comptes_AdresseId",
+                table: "Comptes",
+                column: "AdresseId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Contacts_AdresseId",
                 table: "Contacts",
                 column: "AdresseId");
@@ -52,6 +80,9 @@ namespace AcmeSystem.Persistence.EntityRepositories.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Comptes");
+
             migrationBuilder.DropTable(
                 name: "Contacts");
 

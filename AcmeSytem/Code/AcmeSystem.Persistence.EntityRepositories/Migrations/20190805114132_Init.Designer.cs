@@ -10,16 +10,37 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AcmeSystem.Persistence.EntityRepositories.Migrations
 {
     [DbContext(typeof(AcmeSystemDbContext))]
-    [Migration("20190325211246_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20190805114132_Init")]
+    partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.2.3-servicing-35854")
+                .HasAnnotation("ProductVersion", "2.2.4-servicing-10062")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+            modelBuilder.Entity("AcmeSystem.Business.Comptes.Compte", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int?>("AdresseId");
+
+                    b.Property<DateTime>("DateCreation");
+
+                    b.Property<DateTime>("DateModification");
+
+                    b.Property<string>("Nom");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AdresseId");
+
+                    b.ToTable("Comptes");
+                });
 
             modelBuilder.Entity("AcmeSystem.Business.Contacts.Adresse", b =>
                 {
@@ -57,6 +78,13 @@ namespace AcmeSystem.Persistence.EntityRepositories.Migrations
                     b.HasIndex("AdresseId");
 
                     b.ToTable("Contacts");
+                });
+
+            modelBuilder.Entity("AcmeSystem.Business.Comptes.Compte", b =>
+                {
+                    b.HasOne("AcmeSystem.Business.Contacts.Adresse", "Adresse")
+                        .WithMany()
+                        .HasForeignKey("AdresseId");
                 });
 
             modelBuilder.Entity("AcmeSystem.Business.Contacts.Contact", b =>
