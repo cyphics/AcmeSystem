@@ -74,6 +74,10 @@ namespace AcmeSystem.Presentation.ClientWeb
                 routes.MapRoute(
                     name: "contacts",
                     template: "{controller=Contact}/{action=List}/{id?}");
+
+                routes.MapRoute(
+                    name: "accounts",
+                    template: "{controller=Account}/{action=List}/{id?}");
             });
 
             SeedData.EnsurePopulated(app);

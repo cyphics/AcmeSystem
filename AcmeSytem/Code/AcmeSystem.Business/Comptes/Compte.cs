@@ -4,7 +4,8 @@ using System.Text;
 
 namespace AcmeSystem.Business.Comptes
 {
-    class Compte
+    public class Account
     {
+
     }
 }
