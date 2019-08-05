@@ -15,6 +15,8 @@ namespace AcmeSystem.Persistence.EntityRepositories
 
         public DbSet<Adresse> Adresses{ get; set; }
 
+        public DbSet<Contact> Comptes { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

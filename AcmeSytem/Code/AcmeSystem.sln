@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2050
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- Presentation", "1- Presentation", "{33649F91-2089-4FD3-B9FF-1CBF9A7CD9D8}"
 EndProject
@@ -12,6 +12,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5- Persistence", "5- Persistence", "{B0270888-9379-46E6-BF96-F9ACC6A1C97D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Infrastructure", "3- Infrastructure", "{3C7B17B9-7F3B-477E-8D56-2509B4510DD3}"
+	ProjectSection(SolutionItems) = preProject
+		AcmeSystem.Applicative.Services\UserServices.cs = AcmeSystem.Applicative.Services\UserServices.cs
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcmeSystem.Presentation.ClientConsole", "AcmeSystem.Presentation.ClientConsole\AcmeSystem.Presentation.ClientConsole.csproj", "{766B96EB-1FD6-4F74-9457-952BC25BBE83}"
 EndProject
