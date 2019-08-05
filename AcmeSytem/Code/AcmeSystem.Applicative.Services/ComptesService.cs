@@ -7,10 +7,10 @@ using System.Text;
 
 namespace AcmeSystem.Applicative.Services
 {
-    class CompteService : ICompteService
+    public class CompteServices : ICompteServices
     {
         ICompteRepository _repo;
-        public CompteService(ICompteRepository repo)
+        public CompteServices(ICompteRepository repo)
         {
             _repo = repo;
         }

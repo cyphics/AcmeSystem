@@ -41,8 +41,10 @@ namespace AcmeSystem.Presentation.ClientWeb
 
             //services.AddTransient<IContactRepository, ContactRepositoryMock>();
             services.AddTransient<IContactRepository, EFContactRepository>();
-
             services.AddTransient<IContactServices, ContactServices>();
+
+            services.AddTransient<ICompteRepository, EFCompteRepository>();
+            services.AddTransient<ICompteServices, CompteServices>();
 
             services.AddMemoryCache();
             services.AddSession();

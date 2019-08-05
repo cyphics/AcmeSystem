@@ -7,7 +7,7 @@ using System.Text;
 
 namespace AcmeSystem.Persistence.EntityRepositories
 {
-    class EFCompteRepository : ICompteRepository
+    public class EFCompteRepository : ICompteRepository
     {
         AcmeSystemDbContext _context;
 
