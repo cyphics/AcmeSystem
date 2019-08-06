@@ -10,7 +10,7 @@ namespace AcmeSystem.Business
         void Create(Compte compte);
         void Edit(Compte compte);
         void Delete(Compte compte);
-        Compte FindById(int? id);
+        Compte FindById(int id);
         Compte FindByName(string name);
     }
 }

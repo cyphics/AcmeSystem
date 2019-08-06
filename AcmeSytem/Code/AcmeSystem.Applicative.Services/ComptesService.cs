@@ -25,30 +25,20 @@ namespace AcmeSystem.Applicative.Services
             _repo.Delete(compte);
         }
 
-        public Compte FindById(int? id)
+        public Compte FindById(int id)
         {
             var list = GetAll();
-            foreach(Compte compte in list)
+            foreach (Compte compte in list)
             {
                 if (compte.Id == id)
-                {
                     return compte;
-                }
             }
             return null;
         }
 
         public Compte FindByName(string name)
         {
-            var list = GetAll();
-            foreach (Compte compte in list)
-            {
-                if (compte.Nom == name)
-                {
-                    return compte;
-                }
-            }
-            return null;
+            return _repo.GetByName(name);
         }
 
         public IQueryable<Compte> GetAll()

@@ -15,18 +15,33 @@
             <div class="card-text p-1">
                 @c.Nom
                 <div>
-                    <a class="btn"
+                    <a class="btn btn-primary"
                        asp-action="Edit"
-                       asp-controller="Compte"
+                       id="@c.Id"
+                       asp-controller="compte"
                        asp-route-category="">
-                        Update
+                        update
                     </a>
-                    <a class="btn"
-                       asp-action="Delete"
-                       asp-controller="Compte"
+                    
+                    <a class="btn btn-danger"
+                       asp-for="@c.Id"
+                       asp-action="delete"
+                       asp-controller="compte"
                        asp-route-category="">
-                        Delete
+                        delete
                     </a>
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="@c.Id" />
+                        <input type="submit" value="Delete" class="btn btn-danger" id="@c.Id" /> |
+                        <a asp-action="Index">Back to List</a>
+                    </form>
+                    @*<a asp-action="Delete"asp-for="@c.Id"></a>
+        <form >
+            <input type="hidden" asp-for="@c.Id" />
+            <input type="submit" value="Update" class="btn btn-primary" />
+            <input type="submit" value="Delete" class="btn btn-danger" />
+        </form>*@
+
                 </div>
             </div>
         </div>

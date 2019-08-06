@@ -65,12 +65,12 @@ namespace AcmeSystem.Presentation.ClientWeb.Controllers
         }
 
         //    GET: Comptes/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            //if (id == null)
+            //{
+            //    return NotFound();
+            //}
 
             var compte = _compteServices.FindById(id);
             if (compte == null)
@@ -117,13 +117,8 @@ namespace AcmeSystem.Presentation.ClientWeb.Controllers
         }
 
         //    GET: Comptes/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
                 var compte = _compteServices.FindById(id);
                 if (compte == null)
                 {
@@ -131,9 +126,6 @@ namespace AcmeSystem.Presentation.ClientWeb.Controllers
                 }
 
                 return View(compte);
-            
-
-           
         }
 
         //    POST: Comptes/Delete/5
@@ -142,6 +134,8 @@ namespace AcmeSystem.Presentation.ClientWeb.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var compte = _compteServices.FindById(id);
+            if (compte == null)
+                return NotFound();
             _compteServices.Delete(compte);
             return RedirectToAction(nameof(Compte));
             //var compte = await _context.Comptes.FindAsync(id);

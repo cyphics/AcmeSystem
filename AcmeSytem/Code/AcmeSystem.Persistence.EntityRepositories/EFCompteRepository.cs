@@ -24,7 +24,8 @@ namespace AcmeSystem.Persistence.EntityRepositories
 
         public void Delete(Compte compte)
         {
-            throw new NotImplementedException();
+            _context.Remove(compte);
+            _context.SaveChangesAsync();
         }
 
         public IQueryable<Compte> GetAll()
@@ -34,7 +35,13 @@ namespace AcmeSystem.Persistence.EntityRepositories
 
         public Compte GetById(int id)
         {
-            throw new NotImplementedException();
+            //var list = GetAll();
+            //foreach(Compte compte in list)
+            //{
+            //    if (compte.Id == id)
+            //        return compte;
+            //}
+            return null;
         }
 
         public Compte GetByName(string name)
@@ -44,7 +51,7 @@ namespace AcmeSystem.Persistence.EntityRepositories
 
         public void Update(Compte compte)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }
