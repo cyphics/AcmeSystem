@@ -1,0 +1,9 @@
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Business/bin/Debug/netcoreapp2.1/AcmeSystem.Business.deps.json
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Business/bin/Debug/netcoreapp2.1/AcmeSystem.Business.dll
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Business/bin/Debug/netcoreapp2.1/AcmeSystem.Business.pdb
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Business/obj/Debug/netcoreapp2.1/AcmeSystem.Business.csprojResolveAssemblyReference.cache
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Business/obj/Debug/netcoreapp2.1/AcmeSystem.Business.csproj.CoreCompileInputs.cache
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Business/obj/Debug/netcoreapp2.1/AcmeSystem.Business.AssemblyInfoInputs.cache
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Business/obj/Debug/netcoreapp2.1/AcmeSystem.Business.AssemblyInfo.cs
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Business/obj/Debug/netcoreapp2.1/AcmeSystem.Business.dll
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Business/obj/Debug/netcoreapp2.1/AcmeSystem.Business.pdb

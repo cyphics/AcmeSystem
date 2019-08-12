@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.1/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_AcmeSystem.1808217125.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.0.1/build/netcoreapp1.0" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="1- Presentation" t="Include" />
+      <e p="2- Applicative" t="Include" />
+      <e p="3- Infrastructure" t="Include" />
+      <e p="4- Business" t="Include" />
+      <e p="5- Persistence" t="Include" />
+      <e p="AcmeSystem.Applicative.Services" t="IncludeRecursive">
+        <e p="AcmeSystem.Applicative.Services.csproj" t="IncludeRecursive" />
+        <e p="ContactServices.cs" t="Include" />
+        <e p="UserServices.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="AcmeSystem.Applicative.Services.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="AcmeSystem.Business" t="IncludeRecursive">
+        <e p="AcmeSystem.Business.csproj" t="IncludeRecursive" />
+        <e p="Comptes" t="Include">
+          <e p="Compte.cs" t="Include" />
+        </e>
+        <e p="Contacts" t="Include">
+          <e p="Adresse.cs" t="Include" />
+          <e p="Contact.cs" t="Include" />
+          <e p="ContactFactory.cs" t="Include" />
+        </e>
+        <e p="IContactRepository.cs" t="Include" />
+        <e p="IContactServices.cs" t="Include" />
+        <e p="IUserRepository.cs" t="Include" />
+        <e p="IUserServices.cs" t="Include" />
+        <e p="Users" t="Include">
+          <e p="Administrateur.cs" t="Include" />
+          <e p="Employe.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="AcmeSystem.Business.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="AcmeSystem.Infrastructure" t="IncludeRecursive">
+        <e p="AcmeSystem.Infrastructure.csproj" t="IncludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="AcmeSystem.Infrastructure.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="AcmeSystem.Persistence.EntityRepositories" t="IncludeRecursive">
+        <e p="AcmeSystem.Persistence.EntityRepositories.csproj" t="IncludeRecursive" />
+        <e p="AcmeSystemDbContext.cs" t="Include" />
+        <e p="EFContactRepository.cs" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20190325211246_InitialCreate.Designer.cs" t="Include" />
+          <e p="20190325211246_InitialCreate.cs" t="Include" />
+          <e p="AcmeSystemDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="SeedData.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="AcmeSystem.Persistence.EntityRepositories.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="AcmeSystem.Persistence.MockRepositories" t="IncludeRecursive">
+        <e p="AcmeSystem.Persistence.MockRepositories.csproj" t="IncludeRecursive" />
+        <e p="ContactRepositoryMock.cs" t="Include" />
+        <e p="UserRepositoryMock.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="AcmeSystem.Persistence.MockRepositories.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="AcmeSystem.Presentation.ClientConsole" t="IncludeRecursive">
+        <e p="AcmeSystem.Presentation.ClientConsole.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="AcmeSystem.Presentation.ClientConsole.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="AcmeSystem.Presentation.ClientWeb" t="IncludeRecursive">
+        <e p="AcmeSystem.Presentation.ClientWeb.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="AcmeSystem.Presentation.ClientWebTest" t="IncludeRecursive">
+        <e p="AcmeSystem.Presentation.ClientWebTest.csproj" t="IncludeRecursive" />
+        <e p="ContactControllerTests.cs" t="Include" />
+        <e p="PageLinkTagHelperTests.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="AcmeSystem.Presentation.ClientWebTest.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="AcmeSystem.sln" t="IncludeFlat" />
+      <e p="ConsoleApp1" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="ConsoleApp1.csproj" t="IncludeRecursive" />
+        <e p="Controller.cs" t="Include" />
+        <e p="IController.cs" t="Include" />
+        <e p="IView.cs" t="Include" />
+        <e p="PartialPersonneView.cs" t="Include" />
+        <e p="Personne.cs" t="Include" />
+        <e p="PersonneView.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="Essais" t="Include" />
+      <e p="UnitTest" t="Include" />
+      <e p="packages" t="ExcludeRecursive">
+        <e p="SQLitePCLRaw.lib.e_sqlite3.linux.1.1.13/runtimes/linux-x64/native/libe_sqlite3.so" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>

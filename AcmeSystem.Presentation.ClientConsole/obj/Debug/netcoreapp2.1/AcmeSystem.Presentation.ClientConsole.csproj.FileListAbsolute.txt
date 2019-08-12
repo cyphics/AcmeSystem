@@ -1,0 +1,17 @@
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/bin/Debug/netcoreapp2.1/AcmeSystem.Presentation.ClientConsole.deps.json
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/bin/Debug/netcoreapp2.1/AcmeSystem.Presentation.ClientConsole.runtimeconfig.json
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/bin/Debug/netcoreapp2.1/AcmeSystem.Presentation.ClientConsole.runtimeconfig.dev.json
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/bin/Debug/netcoreapp2.1/AcmeSystem.Presentation.ClientConsole.dll
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/bin/Debug/netcoreapp2.1/AcmeSystem.Presentation.ClientConsole.pdb
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/bin/Debug/netcoreapp2.1/AcmeSystem.Business.dll
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/bin/Debug/netcoreapp2.1/AcmeSystem.Persistence.MockRepositories.dll
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/bin/Debug/netcoreapp2.1/AcmeSystem.Business.pdb
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/bin/Debug/netcoreapp2.1/AcmeSystem.Persistence.MockRepositories.pdb
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/obj/Debug/netcoreapp2.1/AcmeSystem.Presentation.ClientConsole.csprojResolveAssemblyReference.cache
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/obj/Debug/netcoreapp2.1/AcmeSystem.Presentation.ClientConsole.csproj.CoreCompileInputs.cache
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/obj/Debug/netcoreapp2.1/AcmeSystem.Presentation.ClientConsole.AssemblyInfoInputs.cache
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/obj/Debug/netcoreapp2.1/AcmeSystem.Presentation.ClientConsole.AssemblyInfo.cs
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/obj/Debug/netcoreapp2.1/AcmeSystem.Presentation.ClientConsole.dll
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/obj/Debug/netcoreapp2.1/AcmeSystem.Presentation.ClientConsole.pdb
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/bin/Debug/netcoreapp2.1/AcmeSystem.Applicative.Services.dll
+/home/cyphics/Dropbox/programmation/IDEC/Architecture/module_477/AcmeSytem/Code/AcmeSystem.Presentation.ClientConsole/bin/Debug/netcoreapp2.1/AcmeSystem.Applicative.Services.pdb
