@@ -12,5 +12,6 @@ namespace AcmeSystem.Business
         void Delete(Compte compte);
         Compte FindById(int id);
         Compte FindByName(string name);
+        void Save();
     }
 }

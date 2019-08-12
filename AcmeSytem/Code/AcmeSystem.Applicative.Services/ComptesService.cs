@@ -50,5 +50,10 @@ namespace AcmeSystem.Applicative.Services
         {
             _repo.Update(compte);
         }
+
+        public void Save()
+        {
+            
+        }
     }
 }

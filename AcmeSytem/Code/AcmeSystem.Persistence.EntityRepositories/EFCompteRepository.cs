@@ -19,13 +19,13 @@ namespace AcmeSystem.Persistence.EntityRepositories
         public void Create(Compte compte)
         {
             _context.Add(compte);
-            _context.SaveChangesAsync();
+            _context.SaveChanges();
         }
 
         public void Delete(Compte compte)
         {
             _context.Remove(compte);
-            _context.SaveChangesAsync();
+            _context.SaveChanges();
         }
 
         public IQueryable<Compte> GetAll()
@@ -35,23 +35,27 @@ namespace AcmeSystem.Persistence.EntityRepositories
 
         public Compte GetById(int id)
         {
-            //var list = GetAll();
-            //foreach(Compte compte in list)
-            //{
-            //    if (compte.Id == id)
-            //        return compte;
-            //}
-            return null;
+            return _context.Comptes.FirstOrDefault(x => x.Id == id);
         }
 
         public Compte GetByName(string name)
         {
-            throw new NotImplementedException();
+            var list = GetAll();
+            foreach (Compte compte in list)
+            {
+                if (compte.Nom == name)
+                    return compte;
+            }
+            return null;
         }
 
         public void Update(Compte compte)
         {
-            
+
+            var storedCompte = GetById(compte.Id);
+            storedCompte.Nom = compte.Nom;
+            storedCompte.DateModification = DateTime.Today;
+            _context.SaveChanges();
         }
     }
 }
